@@ -17,7 +17,7 @@ This project demonstrates production-ready machine learning engineering through 
 The Street View House Numbers (SVHN) digit recognition system uses optimized Convolutional Neural Networks to achieve high-accuracy digit classification while maintaining computational efficiency. Through comprehensive experimental analysis, this project delivers a production-ready solution that balances performance with practical deployment considerations.
 
 ### Technical Achievements
-- **90% test accuracy** on SVHN dataset
+- **89-91% test accuracy** on SVHN dataset (varies by environment: local ~89%, Kaggle ~91%)
 - **38.6% parameter reduction** compared to baseline models
 - **Systematic experimental validation** across multiple architectural configurations
 - **Production-focused optimization** for real-world deployment scenarios
