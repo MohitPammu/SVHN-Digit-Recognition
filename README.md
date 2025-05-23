@@ -89,8 +89,8 @@ cd SVHN-Digit-Recognition
 # Install required packages
 pip install -r requirements.txt
 
-# Run the main analysis
-python src/model_training.py
+# Open the comprehensive analysis
+jupyter notebook MohitPammu_SVHN_Digit_Recognition.ipynb
 ```
 
 ### Quick Start
@@ -169,9 +169,6 @@ This project was developed as part of the MIT Professional Education Applied Dat
 
 Explore my complete data science portfolio at [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)
 
-**Other Featured Projects:**
-- [Bikeshare User Analytics](https://github.com/MohitPammu/Bikeshare-User-Analytics) - Large-scale user behavior analysis
-- [HR Analytics Dashboard](https://github.com/MohitPammu/HR-Analytics-Dashboard) - Business intelligence and workforce analytics
 
 ## Connect
 
