@@ -178,7 +178,7 @@ Explore my complete data science portfolio at [mohitpammu.github.io/Projects](ht
 
 - **LinkedIn:** [mohitpammu](https://linkedin.com/in/mohitpammu)
 - **Portfolio:** [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)
-- **Email:** mohit.pammu@example.com
+- **Email:** mopammu@gmail.com
 
 ---
 
