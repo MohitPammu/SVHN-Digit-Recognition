@@ -1,13 +1,13 @@
 # SVHN Digit Recognition: Optimized CNN for Production Deployment
 
-**Achieving 90% accuracy with 39% parameter reduction through systematic experimental methodology**
+**Achieving 90% accuracy with 38.6% parameter reduction through systematic experimental methodology**
 
 ## Business Impact
 
 This project demonstrates production-ready machine learning engineering through systematic optimization of deep learning models for real-world deployment scenarios. By reducing model complexity while maintaining high accuracy, this solution addresses critical business needs for edge deployment, cost-effective scaling, and resource-constrained environments.
 
 **Key Business Value:**
-- **Cost Optimization:** 39% reduction in model parameters translates to lower computational costs and faster inference
+- **Cost Optimization:** 38.6% reduction in model parameters translates to lower computational costs and faster inference
 - **Edge Deployment Ready:** Lightweight architecture suitable for mobile and IoT applications
 - **Scalable Architecture:** Optimized for production environments requiring high-throughput digit recognition
 - **Systematic Methodology:** Rigorous experimental approach ensures reliable, reproducible results
@@ -18,7 +18,7 @@ The Street View House Numbers (SVHN) digit recognition system uses optimized Con
 
 ### Technical Achievements
 - **90% test accuracy** on SVHN dataset
-- **39% parameter reduction** compared to baseline models
+- **38.6% parameter reduction** compared to baseline models
 - **Systematic experimental validation** across multiple architectural configurations
 - **Production-focused optimization** for real-world deployment scenarios
 
@@ -115,8 +115,8 @@ model = load_model('models/best_model.keras')
 
 | Metric | Value |
 |--------|-------|
-| **Test Accuracy** | ~89-90% |
-| **Parameter Reduction** | 39% |
+| **Test Accuracy** | ~90% |
+| **Parameter Reduction** | 38.6% |
 | **Training Time** | Optimized for efficiency |
 | **Inference Speed** | Production-ready |
 | **Model Size** | Edge deployment suitable |
