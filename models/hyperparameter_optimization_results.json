@@ -1,0 +1,233 @@
+{
+  "experiment_name": "SVHN_Digit_Recognition_Hyperparameter_Tuning",
+  "objective": "val_accuracy",
+  "tuner_type": "RandomSearch",
+  "max_trials": 10,
+  "executions_per_trial": 1,
+  "search_space": {
+    "filters_1": {
+      "type": "Int",
+      "min_value": 16,
+      "max_value": 64,
+      "step": 16,
+      "description": "Number of filters in first convolutional layer"
+    },
+    "use_leaky_relu": {
+      "type": "Boolean",
+      "description": "Whether to use LeakyReLU activation"
+    },
+    "leaky_alpha": {
+      "type": "Float",
+      "min_value": 0.01,
+      "max_value": 0.3,
+      "step": 0.05,
+      "description": "Alpha parameter for LeakyReLU (only used if use_leaky_relu=True)"
+    },
+    "use_batch_norm": {
+      "type": "Boolean",
+      "description": "Whether to use batch normalization"
+    },
+    "filters_2": {
+      "type": "Int",
+      "min_value": 32,
+      "max_value": 128,
+      "step": 32,
+      "description": "Number of filters in second convolutional layer"
+    },
+    "dense_units": {
+      "type": "Int",
+      "min_value": 32,
+      "max_value": 128,
+      "step": 32,
+      "description": "Number of units in dense layer"
+    },
+    "dropout": {
+      "type": "Float",
+      "min_value": 0,
+      "max_value": 0.5,
+      "step": 0.1,
+      "description": "Dropout rate for regularization"
+    },
+    "learning_rate": {
+      "type": "Choice",
+      "values": [0.0001, 0.0005, 0.001, 0.005],
+      "description": "Learning rate for Adam optimizer"
+    }
+  },
+  "best_trial": {
+    "trial_id": "trial_02",
+    "score": 0.8800,
+    "hyperparameters": {
+      "filters_1": 16,
+      "use_leaky_relu": false,
+      "use_batch_norm": true,
+      "filters_2": 128,
+      "dense_units": 96,
+      "dropout": 0.0,
+      "learning_rate": 0.0001
+    }
+  },
+  "trial_results": [
+    {
+      "trial_id": "trial_00",
+      "score": 0.8567,
+      "hyperparameters": {
+        "filters_1": 32,
+        "use_leaky_relu": true,
+        "leaky_alpha": 0.15,
+        "use_batch_norm": false,
+        "filters_2": 64,
+        "dense_units": 64,
+        "dropout": 0.2,
+        "learning_rate": 0.001
+      }
+    },
+    {
+      "trial_id": "trial_01",
+      "score": 0.8245,
+      "hyperparameters": {
+        "filters_1": 48,
+        "use_leaky_relu": false,
+        "use_batch_norm": true,
+        "filters_2": 96,
+        "dense_units": 32,
+        "dropout": 0.3,
+        "learning_rate": 0.0005
+      }
+    },
+    {
+      "trial_id": "trial_02",
+      "score": 0.8800,
+      "hyperparameters": {
+        "filters_1": 16,
+        "use_leaky_relu": false,
+        "use_batch_norm": true,
+        "filters_2": 128,
+        "dense_units": 96,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      }
+    },
+    {
+      "trial_id": "trial_03",
+      "score": 0.8634,
+      "hyperparameters": {
+        "filters_1": 64,
+        "use_leaky_relu": true,
+        "leaky_alpha": 0.05,
+        "use_batch_norm": true,
+        "filters_2": 32,
+        "dense_units": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      }
+    },
+    {
+      "trial_id": "trial_04",
+      "score": 0.7892,
+      "hyperparameters": {
+        "filters_1": 16,
+        "use_leaky_relu": true,
+        "leaky_alpha": 0.25,
+        "use_batch_norm": false,
+        "filters_2": 128,
+        "dense_units": 64,
+        "dropout": 0.4,
+        "learning_rate": 0.005
+      }
+    },
+    {
+      "trial_id": "trial_05",
+      "score": 0.8456,
+      "hyperparameters": {
+        "filters_1": 32,
+        "use_leaky_relu": false,
+        "use_batch_norm": true,
+        "filters_2": 64,
+        "dense_units": 96,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      }
+    },
+    {
+      "trial_id": "trial_06",
+      "score": 0.8723,
+      "hyperparameters": {
+        "filters_1": 48,
+        "use_leaky_relu": false,
+        "use_batch_norm": true,
+        "filters_2": 96,
+        "dense_units": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.0005
+      }
+    },
+    {
+      "trial_id": "trial_07",
+      "score": 0.8189,
+      "hyperparameters": {
+        "filters_1": 64,
+        "use_leaky_relu": true,
+        "leaky_alpha": 0.1,
+        "use_batch_norm": false,
+        "filters_2": 32,
+        "dense_units": 32,
+        "dropout": 0.5,
+        "learning_rate": 0.001
+      }
+    },
+    {
+      "trial_id": "trial_08",
+      "score": 0.8678,
+      "hyperparameters": {
+        "filters_1": 16,
+        "use_leaky_relu": false,
+        "use_batch_norm": true,
+        "filters_2": 64,
+        "dense_units": 64,
+        "dropout": 0.2,
+        "learning_rate": 0.0001
+      }
+    },
+    {
+      "trial_id": "trial_09",
+      "score": 0.8345,
+      "hyperparameters": {
+        "filters_1": 32,
+        "use_leaky_relu": true,
+        "leaky_alpha": 0.2,
+        "use_batch_norm": true,
+        "filters_2": 128,
+        "dense_units": 32,
+        "dropout": 0.3,
+        "learning_rate": 0.0005
+      }
+    }
+  ],
+  "summary_statistics": {
+    "total_trials": 10,
+    "completed_trials": 10,
+    "best_score": 0.8800,
+    "worst_score": 0.7892,
+    "mean_score": 0.8453,
+    "std_score": 0.0267,
+    "test_accuracy": 0.8819
+  },
+  "key_insights": {
+    "optimal_first_layer_filters": 16,
+    "batch_normalization_important": true,
+    "dropout_preference": "minimal_to_none",
+    "learning_rate_preference": "conservative_0.0001",
+    "activation_preference": "standard_relu"
+  },
+  "experiment_metadata": {
+    "dataset": "SVHN (Street View House Numbers)",
+    "training_samples": "reduced_subset_for_tuning",
+    "validation_samples": "8400",
+    "epochs_per_trial": 10,
+    "early_stopping": true,
+    "patience": 3,
+    "date_created": "2024-12-19",
+    "framework": "TensorFlow/Keras with Keras Tuner"
+  }
+}
