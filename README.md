@@ -54,8 +54,8 @@ This project employs a systematic experimental approach to model optimization:
 - **Programming Language:** Python
 - **Core Libraries:** NumPy, Pandas, Matplotlib, Seaborn
 - **Model Architecture:** Optimized CNN with systematic design choices
-- **Validation:** Statistical significance testing and cross-validation
-- **Deployment Preparation:** Model compression and optimization techniques
+- **Validation:** Train/validation/test split methodology
+- **Deployment Preparation:** Parameter efficiency optimization
 
 ## Repository Structure
 
