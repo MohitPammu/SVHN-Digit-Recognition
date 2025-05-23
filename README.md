@@ -182,4 +182,4 @@ Explore my complete data science portfolio at [mohitpammu.github.io/Projects](ht
 
 ---
 
-*Developed by Mohit Pammu | Experienced professional entering data science with production-ready skills*
+*Developed by Mohit Pammu, MBA | Experienced professional entering data science with production-ready skills*
