@@ -35,17 +35,17 @@ This project employs a systematic experimental approach to model optimization:
 2. **Hyperparameter Optimization**
    - Learning rate scheduling and optimization
    - Batch size impact analysis
-   - Normalization technique evaluation
-   - AutoML-driven hyperparameter tuning
+   - Normalization technique evaluation (Batch Normalization)
+   - Systematic hyperparameter comparison
 
 3. **Training Strategy Optimization**
-   - Data augmentation effectiveness analysis
-   - Regularization technique comparison
-   - Training stability and convergence optimization
+   - Regularization technique implementation (Dropout, Batch Normalization)
+   - Training stability and convergence analysis
+   - Cross-validation for model reliability
 
 4. **Production Readiness Assessment**
-   - Inference speed benchmarking
-   - Memory usage profiling
+   - Inference speed considerations
+   - Parameter efficiency analysis
    - Model deployment preparation
 
 ## Technical Stack
