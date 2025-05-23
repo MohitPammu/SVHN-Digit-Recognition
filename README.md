@@ -39,9 +39,8 @@ This project employs a systematic experimental approach to model optimization:
    - Systematic hyperparameter comparison
 
 3. **Training Strategy Optimization**
-   - Regularization technique implementation (Dropout, Batch Normalization)
-   - Training stability and convergence analysis
-   - Cross-validation for model reliability
+   - Regularization technique comparison (Dropout)
+   - Training stability and convergence optimization
 
 4. **Production Readiness Assessment**
    - Inference speed considerations
