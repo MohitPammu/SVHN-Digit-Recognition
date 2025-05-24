@@ -1,6 +1,6 @@
 # SVHN Digit Recognition: Optimized CNN for Production Deployment
 
-**Achieving 90% accuracy with 38.6% parameter reduction through systematic experimental methodology**
+**Achieving ~90% accuracy with 38.6% parameter reduction through systematic experimental methodology**
 
 ## Business Impact
 
