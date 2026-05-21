@@ -163,7 +163,7 @@ This project demonstrates systematic ML engineering methodology. Contributions f
 
 ## Project Context
 
-This project was developed as part of the MIT Professional Education Applied Data Science certification program, demonstrating practical application of machine learning engineering principles for real-world deployment scenarios.
+Originally developed as part of the MIT Professional Education – Applied Data Science Program, this project was significantly extended beyond program requirements through additional experimental methodology including AutoML integration, normalization analysis, learning rate and batch size sensitivity testing, model serialization, and comprehensive documentation. The expanded scope reflects independent research and engineering work beyond the original certification deliverables.
 
 ## Portfolio
 
